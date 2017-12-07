@@ -1,0 +1,37 @@
+
+@font-face {
+font-family: "BNazanin";
+src:url(../Fonts/BNazanin.woff);  
+}
+ body {
+    font-family: BNazanin !important;
+}
+
+nav div ul li a{color: white!important;}
+li a {
+    height: 20px;
+    padding: 0;
+    font-family: 'BNazanin';
+    font-size:15px;
+    margin: 0;
+    border: 0px;
+    color: white;
+    text-decoration: none;
+}
+li a{text-decoration: none !important;
+ }
+li a:hover{
+    text-decoration: none;
+    color: white;
+
+}
+ ul li {
+     padding: 0;
+
+     border: 0px;
+     display: inline;
+     padding-right: 15px;
+ }
+ searchbar{
+     height:5px!important;
+ }

@@ -1,0 +1,178 @@
+
+@font-face {
+    font-family: "BNazanin";
+    src: url(../Fonts/BNazanin.woff);
+}
+
+body {
+    font-family: BNazanin !important;
+}
+
+a:hover{
+    color:inherit;
+}
+a:visited{
+    color:inherit;
+}
+
+ul li {
+    display: inline;
+    padding: 0px;
+    width: 100%;
+}
+
+ul {
+    display: block;
+}
+
+nav ul li a {
+    display: inline;
+    text-decoration: none;
+    text-align:center;
+    white-space:nowrap;
+    
+}
+
+#BlueHeader {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    height: 30px;
+    color: white;
+    background-color: #1a365e;
+}
+
+BlueHeader {
+    line-break: loose;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 25px;
+}
+
+nav#BlueHeader ul li {
+    display: block;
+    height: 100%;
+    float: right;
+
+}
+
+
+
+    nav#BlueHeader ul li a {
+        display: block;
+        margin: 5px;
+       
+    }
+
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+.headersubmenu {
+    color: white;
+    background-color: royalblue;
+    border: solid 1px;
+    border-top:none;
+    border-radius: 3px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+    z-index:99;
+    top:30px;
+
+    display:none;
+
+    position:absolute;
+}
+
+#ersalraygan:hover #menuersalraygan {
+    display: flex;
+}
+#sitelogodiv{
+
+    float:right;
+}
+#searchbar{
+    height:60px;
+    width:1000px;
+    margin:auto;
+}
+.menu{
+    position:relative;
+}
+
+li.menu:hover ul.headersubmenu{
+    display:block;
+    height:auto;
+}
+li.menu ul.headersubmenu li{
+    display:flex;
+    padding:10px;
+    float:none !important;
+    direction:rtl;
+    border-bottom:solid 1px white;
+
+}
+
+li.menu ul.headersubmenu li a {
+    padding:0 0;
+}
+    a{
+    direction:rtl;
+}
+
+ li.menu ul.headersubmenu{
+     border-bottom-left-radius:5px;
+     border-bottom-right-radius:5px;
+ }
+
+ .mzflex{
+     display:flex;
+ }
+
+ .logop{
+     margin-top:21px;
+     margin-left:auto;
+     margin-right:auto;
+ }
+
+input[type="text"] {
+    width: 100%;
+    border-radius: 3px;
+    border: solid 1px #1a365e;
+    height:32px;
+    direction:rtl;
+    padding:0 15px;
+}
+div#searchbox {
+    margin-top: 21px;
+    position: relative;
+    height:32px;
+    
+}
+
+input[type="button"] {
+    width: auto;
+    height:31px;
+    
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #1a365e;
+    color: white;
+    top:1px;
+    left:15px;
+    position:absolute;
+    border:none;
+    
+}
